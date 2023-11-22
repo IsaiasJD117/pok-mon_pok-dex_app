@@ -10,6 +10,7 @@ function displayPokemonInfo(array){
 
 function appendNames(string){
     const li = document.createElement('li');
+    li.classList.add('pokemon-name');
     li.innerHTML = string;
     return li;
 }

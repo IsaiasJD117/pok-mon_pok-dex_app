@@ -3,15 +3,24 @@ body {
     background-color: lightskyblue;
     margin: 1rem;
     padding: 1rem;
+    color: white;
 
 }
 h1 {
-    color:brown;
+    background-color: #ffcb05;
+    color: #3b4cca;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 button {
     margin-bottom: 1rem;
-    background: maroon;
-    color: white;
+    background: #ffcb05;
+    height: 2rem;
+    color: #3b4cca;
+    font-weight: bold;
     border: solid 1px;
     border-radius: 2em;
     padding: 0.75 rem 2rem;
@@ -24,16 +33,26 @@ li {
     font-weight: 200;
 }
 .pokemonImage {
-    border: 1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: white;
 }
 .pokemonItem {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1rem;
+    background: #3b4cca;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.pokemon-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
 }
 p{
     line-height: 2rem;
