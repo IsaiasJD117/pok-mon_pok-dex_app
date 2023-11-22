@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+h1 {
+    color:brown;
+}
+button {
+    margin-bottom: 1rem;
+    background: maroon;
+    color: white;
+    border: solid 1px;
+    border-radius: 2em;
+    padding: 0.75 rem 2rem;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 1rem;
+    font-weight: 200;
+}
+.pokemonImage {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.pokemonItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+p{
+    line-height: 2rem;
+}
